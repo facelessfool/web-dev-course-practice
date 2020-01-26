@@ -1,0 +1,45 @@
+/*width
+color 
+style
+*/
+
+h1{
+	color: white;
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border: 2px solid white;
+
+}
+*{
+	border:1px solid lightgrey;
+}
+
+li{
+	background: rgba(120,120,120,0.5);
+	
+	color: green;
+}
+.high1{
+	color:black;
+}
+
+h3{
+	background:#AE4934;
+	color: black;
+}
+#special{
+	color: white;
+}
+.highlight{
+	color: black;
+	text-decoration:line-through;
+}
+
+body{
+	background: url(https://i.ytimg.com/vi/-MKapbz0GIo/maxresdefault.jpg);
+
+	background-repeat: no-repeat;
+	background-size: cover;
+}
