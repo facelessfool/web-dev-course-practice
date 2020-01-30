@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+	<form >
+
+	<h1>Login</h1>
+	<!-- action- where the form sends data to -->
+<!-- 	method what HTTP method (get/post) -->
+	<!-- <label>
+		Username: 
+		<input type="text" placeholder="username" name="uname"></label>
+	<label>Password:<input type="password" placeholder="password" name="pwd"> </label> -->
+
+	<div> 
+	<!-- <label for="email">Email</label> -->
+	<!-- <input type="email"required name="" placeholder="Email" id="email" required> -->
+	<label for="username">Username:</label>
+	<input id ="username" type="text" placeholder="username" name="">
+	<label for="pwd">Password:</label>
+	<input id ="pwd" type="password" placeholder="password" name="">
+</div>
+
+	<!-- radio button, select tag, text area tag -->
+
+	<p>Do you prefer cats or dog</p>
+<label for="dog">Dogs</label>
+<input id="dog" value="DOGS" type="radio" name="pet">
+<label for="cat">Cats</label>
+
+<input id="cat" type="radio" value="CATS" name="pet">
+
+<p>Whats your favorite color</p>
+<select name="color">
+	<option>Red</option>
+	<option>Yellow</option>
+	<option>Blue</option>
+</select>
+
+<p>Mood</p>
+	<select name="mood">
+	<option value="Happy">:)</option>
+	<option value="Sad">:(</option>
+</select>
+
+<textarea name="paragraph" rows="10" cols="10"></textarea>
+
+<button>Go!</button>
+
+</form>
+
+
+
+</body>
+</html>
